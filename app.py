@@ -246,7 +246,7 @@ def create_price_boxplot(filtered_df):
         labels={"ITEM_NM": "강좌", "COURSE_PRC": "가격 (천원)"},
     )
 
-    fig.update_yaxes(title_text="가격 (천원)")
+    fig.update_yaxes(title_text="가격 (원)")
     fig.update_layout(
         xaxis_title="강좌 종목",
         showlegend=True,
